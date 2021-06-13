@@ -15,9 +15,9 @@ $(document).ready(function() {
     event.preventDefault();
     const UserInput = $("#user-input").val();
     console.log("user-input",UserInput)
-    const passage = Cryptosquare(UserInput);
-    console.log("passage",passage);
-    $("#output").html(passage);
+    const message = Cryptosquare(UserInput);
+    console.log("message",message);
+    $("#output").html(message);
   });
 });
 
